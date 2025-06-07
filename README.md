@@ -1,7 +1,7 @@
 # 🌦️ Weather App – StaxTech Internship Project
 A sleek, modern, and functional Weather Application built with React + Vite as part of my internship program at StaxTech. This project integrates real-time weather data including temperature, condition, icon, and time in 24-hour format using the WeatherAPI. Styled with clean and responsive CSS, and enhanced with React Icons for an intuitive user interface.
 
-# 🚀 Features
+## 🚀 Features
 - ✅ Real-time Weather Conditions (e.g., Cloudy, Sunny, Rainy)
 - 🌡️ Displays Current Temperature
 - 🕒 24-hour Format Time Display
@@ -14,15 +14,15 @@ A sleek, modern, and functional Weather Application built with React + Vite as p
 ![Alt weather app develop by Awowole Hammad Olamilekan](./weather-app%20snipshot.png)
 
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 - Frontend Framework: React (via Vite)
 - Styling: Plain CSS
 - Icons: React Icons
 
-# API Source: WeatherAPI
+## API Source: WeatherAPI
 [Weather API](https://www.weatherapi.com/)
 
-# 📁 Folder Structure
+## 📁 Folder Structure
 
 weather-app/
 │
@@ -36,7 +36,7 @@ weather-app/
 ├── .env                  
 └── vite.config.js  
 
-# 🔑 API Reference
+## 🔑 API Reference
 Powered by WeatherAPI.com, providing:
 
 - Real-time weather
@@ -44,11 +44,11 @@ Powered by WeatherAPI.com, providing:
 - Icons and condition text
 - Timestamps in 24-hour format
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 This project was developed as part of the Internship Program at StaxTech.
 
 
-📫 Contact
+## 📫 Contact
 - Name: Awowole Hammad Olamilekan
 - LinkedIn: [Hammad Olamilekan Awowole](https://www.linkedin.com/in/awowole-hammad-olamilekan/)
 - GitHub: [Awowole Hammad Olamilekan](https://github.com/lexycon002)
