@@ -1,12 +1,55 @@
-# React + Vite
+# 🌦️ Weather App – StaxTech Internship Project
+A sleek, modern, and functional Weather Application built with React + Vite as part of my internship program at StaxTech. This project integrates real-time weather data including temperature, condition, icon, and time in 24-hour format using the WeatherAPI. Styled with clean and responsive CSS, and enhanced with React Icons for an intuitive user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Features
+- ✅ Real-time Weather Conditions (e.g., Cloudy, Sunny, Rainy)
+- 🌡️ Displays Current Temperature
+- 🕒 24-hour Format Time Display
+- 🌤️ Dynamic Weather Icons
+- 🔍 Search functionality to check weather by location
+- 💻 Responsive UI using Plain CSS
+- ⚛️ Built with React and Vite for optimal performance
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Alt weather app develop by Awowole Hammad Olamilekan](./weather-app%20snipshot.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Tech Stack
+- Frontend Framework: React (via Vite)
+- Styling: Plain CSS
+- Icons: React Icons
+
+# API Source: WeatherAPI
+[Weather API](https://www.weatherapi.com/)
+
+# 📁 Folder Structure
+
+weather-app/
+│
+├── public/               
+├── src/
+│   ├── components/       
+│   ├── App.jsx           
+│   ├── index.css         
+│   └── main.jsx          
+├── screenshots/          
+├── .env                  
+└── vite.config.js  
+
+# 🔑 API Reference
+Powered by WeatherAPI.com, providing:
+
+- Real-time weather
+- Location-based data
+- Icons and condition text
+- Timestamps in 24-hour format
+
+🙌 Acknowledgments
+This project was developed as part of the Internship Program at StaxTech.
+
+
+📫 Contact
+Name: Awowole Hammad Olamilekan
+LinkedIn: [Hammad Olamilekan Awowole](https://www.linkedin.com/in/awowole-hammad-olamilekan/)
+GitHub: [Awowole Hammad Olamilekan](https://github.com/lexycon002)
+
