@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sanchez:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sanchez", serif;
+}
+#root {
+    width: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(221, 146, 240, 0.966);
+    /* color: white; */
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    max-width: 400px;
+    margin:0 auto;
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 2px 15px 25px rgba(0,0,0,0.1)
+}
+.container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    background:url("./assets/clouds.png");
+}
+.search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 25px;
+}
+.search-section .search-form {
+    height: 40px;
+    width:100%;
+    position: relative;
+}
+.search-section .search-form span {
+    position: absolute;
+    top: 55%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: white;
+}
+.search-section .search-input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(248, 95, 7, 0.76);
+    background: purple;
+    outline: none;
+    padding: 0px 10px 0px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+.search-section .search-input:focus {
+    border-color: rgb(216, 67, 216);
+}
+.search-section .search-input::placeholder {
+    color: white;
+}
+.search-section .location-button {
+    height: 40px;
+    width: 42px;
+    border: 1px solid rgba(248, 95, 7, 0.76);
+    background: purple;
+    border-radius:8px;
+    cursor: pointer;
+    flex-shrink: 0;
+    color: white;
+}
+.search-section .location-button:hover {
+    color:purple;
+    background: rgba(248, 95, 7, 0.76);
+}
+.search-section .location-button span {
+    font-size:18px;
+}
+.weather-section :where(h2, p) {
+    color: white;
+}
+
+.weather-section .current-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 50px;
+}
+.current-weather  .weather-icon {
+    width: 160px;
+    aspect-ratio: 1;
+}
+
+.current-weather .temperature {
+    margin: 20px 0;
+    display: flex;
+    font-size:60px;
+}
+.current-weather .temperature span {
+    font-size:30px;
+    font-weight: 600;
+    margin: 5px 0px 0px 3px;
+}
+.current-weather .description {
+    font-size: 20px;
+}
+.hourly-forecast {
+    padding: 16px 25px;
+    border-top: 1px solid #f85f07c2 ;
+}
+.hourly-forecast .weather-list {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    list-style-type: none;
+    scrollbar-width: thin;
+    padding-bottom: 14px;
+    margin-bottom: -14px;
+    scrollbar-color: transparent transparent;
+}
+.hourly-forecast:hover .weather-list {
+    scrollbar-color:#f85f07c2 transparent ;
+}
+.hourly-forecast .weather-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.hourly-forecast .weather-item .weather-icon {
+    width: 27px;
+    aspect-ratio: 1;
+}
+.no-result-option {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
+    padding: 50px 30px 30px;
+}
+.no-result-option h2 {
+    margin: 20px 0px 12px;
+}
+
+@media screen and (max-width:630px) {
+    body, .search-section {
+        padding: 20px;;
+    }
+    .hourly-forecast {
+        padding: 15px 20px;
+    }
+    .hourly-forecast .weather-list {
+        gap: 20px;
+    }
+    .no-result-option {
+        padding: 25px;
+        min-height: 450px;
+    }
+    
+}
