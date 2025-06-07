@@ -49,7 +49,7 @@ This project was developed as part of the Internship Program at StaxTech.
 
 
 📫 Contact
-Name: Awowole Hammad Olamilekan
-LinkedIn: [Hammad Olamilekan Awowole](https://www.linkedin.com/in/awowole-hammad-olamilekan/)
-GitHub: [Awowole Hammad Olamilekan](https://github.com/lexycon002)
+- Name: Awowole Hammad Olamilekan
+- LinkedIn: [Hammad Olamilekan Awowole](https://www.linkedin.com/in/awowole-hammad-olamilekan/)
+- GitHub: [Awowole Hammad Olamilekan](https://github.com/lexycon002)
 
